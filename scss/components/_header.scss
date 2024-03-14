@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 34px 36px 80px;
+
+
+    .mobile-nav{
+        display: none;
+        @media screen and (max-width: $bp-tablet) {
+            display: block;
+        }
+        
+        &__btn-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+
+            span {
+                width: 30px;
+                height: 2px;
+                display: block;
+                background-color: $orange;
+            }
+
+        &:hover + .mobile-nav__menu .menu{
+               display: flex;  
+               flex-direction: column;
+            }
+        &__menu{
+            position: absolute;
+            top: 50px;
+            right: 20px;
+            background-color: rgba(0, 0, 0, 0.432)
+          }
+
+        }
+    
+    }
+   
+
+}    
+ 

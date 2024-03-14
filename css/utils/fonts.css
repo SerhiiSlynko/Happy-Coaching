@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Gilroy Regular";
+  src: url("/fonts/Gilroy-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy Semibold";
+  src: url("/fonts/Gilroy-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Rodoto Regular";
+  src: url("/fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url("/fonts/Gilroy-Bold.ttf") format("truetype");
+}
+
+/*# sourceMappingURL=fonts.css.map */

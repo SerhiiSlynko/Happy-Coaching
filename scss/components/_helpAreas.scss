@@ -1,0 +1,150 @@
+.helpAreas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: $bp-tablet-s) {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        width: 545px;
+        height: 434px;
+        top: 236px;
+        left: 86px;
+
+
+        
+    }
+    
+
+   
+   
+    &__text-one{
+        width: 273px;
+        height: 24px;
+        top: 236px;
+        left: 86px;
+        opacity: 0.4px;
+        font-family: "Kumbh Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: #4A556C;
+
+        @media screen and (max-width: $bp-tablet-s) {
+            font-size: 14px;
+        }
+
+        @media screen and (max-width: $bp-tablet-sm) {
+            font-size: 12px;
+        }
+
+        @media screen and (max-width: $bp-mobile) {
+            font-size: 10px;
+        }
+        
+    }
+
+
+    &__text-two{
+        width: 520px;
+        height: 258px;
+        top: 266px;
+        left: 86px;
+        
+        opacity: 0.4px;
+        font-family: "Kumbh Sans", sans-serif;
+        font-size: 72px;
+        font-weight: 800;
+        line-height: 86px;
+        letter-spacing: -1%;
+        text-align: left;
+        color: #333461;
+        
+
+        @media screen and (max-width: $bp-tablet-s) {
+            font-size: 60px;
+        }
+
+        @media screen and (max-width: $bp-tablet-sm) {
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: $bp-mobile) {
+            font-size: 20px;
+        }
+      
+        
+      }
+
+
+    &__text-three{
+        width: 545px;
+        height: 116px;
+        top: 554px;
+        left: 86px;
+        
+        opacity: 0.4px;
+        font-family: "Kumbh Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        color: #4A556C;
+      
+        @media screen and (max-width: $bp-tablet-s) {
+            font-size: 16px;
+        }
+
+        @media screen and (max-width: $bp-tablet-sm) {
+            font-size: 14px;
+        }
+
+        @media screen and (max-width: $bp-mobile) {
+            font-size: 12px;
+        }
+      
+        
+      }
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    &__help-img{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        
+
+        @media screen and (max-width: $bp-tablet-s) {
+            width: 100%;
+        }
+        
+    }
+    &__help-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    
+   
+}

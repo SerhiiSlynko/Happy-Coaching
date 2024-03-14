@@ -1,0 +1,43 @@
+.areas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+
+    &__title{
+      width: 500px;
+      text-align: center;
+      margin-left: 200px;
+   }
+
+    &__titleH4{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 56px;
+      vertical-align: top;
+      gap: 23px;
+      
+      font-family: "Kumbh Sans";
+      font-size: 48px;
+      font-weight: 800;
+      padding-top: 96px;
+      padding-bottom: 23px;
+      color: #333461;
+
+        
+
+
+        
+         @media screen and (max-width: $bp-tablet-sm) {
+            font-size: 30px;
+         }
+ 
+         @media screen and (max-width: $bp-mobile) {
+            font-size: 28px;
+         }
+      }
+    
+
+}
